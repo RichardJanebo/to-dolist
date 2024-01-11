@@ -10,3 +10,4 @@ function clicar(){
     }
     dados.value = ''
 }
+let span 
