@@ -22,6 +22,7 @@ main{
     padding: 30px 40px 70px;
 }
 main p#row{
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,5 +95,13 @@ ul li span{
 }
 ul li span:hover{
     background-color: #edeef0;
+}
+@media screen  and (max-width:608px){
+    button{
+        margin: auto;
+        display: block;
+        margin-top: 2rem;
+    }
+    
 }
 
